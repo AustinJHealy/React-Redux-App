@@ -1,20 +1,11 @@
-import React, { useEffect } from 'react';
-import './App.css';
-import axios from 'axios';
-  
+import React from "react";
+import "./App.css";
+import CharacterList from "./components/CharacterList";
+
 function App() {
-  
-  useEffect(()=> {
-  axios.get("https://rickandmortyapi.com/api/character/")
-  .then((res) => {
-    console.log(res.data.results);
-    
-    })
-  .catch(err => console.log(err));
-  });
   return (
     <div className="App">
-      <p></p>
+      <CharacterList />
     </div>
   );
 }
