@@ -29,6 +29,7 @@ function characterReducer(state = initialState, action) {
       return {
         ...state,
         error: action.payload,
+        isFetching: false,
       };
     default:
       return state;

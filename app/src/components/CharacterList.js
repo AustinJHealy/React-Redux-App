@@ -45,7 +45,7 @@ const CharacterList = (props) => {
 
   return (
     <>
-      <Title>Wub A Lub A Dub Dub</Title>
+      <Title>WubALubADubDub</Title>
       <div className="characters">
         {props.characters.map((character) => {
           return (
