@@ -41,8 +41,6 @@ const CharacterList = (props) => {
     props.getCharacters();
   };
 
-  //console.log(props);
-
   return (
     <>
       <Title>WubALubADubDub</Title>
